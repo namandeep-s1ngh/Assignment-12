@@ -1,0 +1,20 @@
+<form style="padding: 2%;" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="userName">Username </label>
+        <br>
+        <input type="text"  id="userName" [(ngModel)]="credentials.username" name="userName">
+        
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="loginPassword">Password</label>
+        <br>
+        <input type="password" id="loginPassword" [(ngModel)]="credentials.password" name="loginPassword">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Login</button>
+    
+    <br><br>
+    <a routerLink="/register">Register</a>
+</form>
+
