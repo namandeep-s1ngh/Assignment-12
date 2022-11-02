@@ -1,0 +1,10 @@
+<div class="main">
+    <button class="btn" (click)="onLoadData()">{{loadButton}}</button>
+</div>
+<br><br>
+<div *ngIf="showTable">    
+    <app-user-table [userdata]="userData"></app-user-table>
+
+    <br><br>
+    <app-user-add (updatedData)="onUpdatedData()"></app-user-add>
+</div>

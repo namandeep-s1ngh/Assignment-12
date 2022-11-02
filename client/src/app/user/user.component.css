@@ -1,0 +1,17 @@
+.btn {
+    align-items: center;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+}
+  
